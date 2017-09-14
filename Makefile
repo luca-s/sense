@@ -1,10 +1,10 @@
 CC      = gcc
 OPTIMIZATIONS = -g
 CFLAGS  :=  -Wall  $(OPTIMIZATIONS)
-ROOT	=  /usr/local
+ROOT	=  /usr/
 SDLLIB  := -L$(ROOT)/lib -lSDL -lpthread
 SDLINC  := -I$(ROOT)/include/SDL -D_REENTRANT
-TARGET  = sense.exe
+TARGET  = sense
 
 $(TARGET): snes.o cpu.o mmio.o dma.o ppu.o display.o tileConverter.o
 	$(CC) $(CFLAGS) -o $(TARGET) snes.o cpu.o mmio.o dma.o ppu.o display.o tileConverter.o $(SDLLIB)
