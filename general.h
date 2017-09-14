@@ -21,9 +21,9 @@ extern void exit_snes(void);
 
 		/*usefull type*/
 
-typedef unsigned char byte; 		/*must be one byte long*/
-typedef unsigned short int word;	/*must be two byte long*/
-typedef unsigned long int dword;	/*must be four byte long*/
+typedef unsigned char byte;         /*must be one byte long*/
+typedef unsigned short int word;    /*must be two byte long*/
+typedef unsigned int dword;         /*must be four byte long*/
 typedef unsigned char boolean;
 
 		/*the above types signed*/
