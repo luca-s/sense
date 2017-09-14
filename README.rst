@@ -8,4 +8,6 @@ The Super Nintendo Entertainment System is a videogame console with a custom 16b
 
 .. image:: https://github.com/luca-s/sense/raw/master/Seiken_Densetsu_3.png
 
+.. image:: https://github.com/luca-s/sense/raw/master/Seiken_Densetsu_3_B.png
+
 .. image:: https://github.com/luca-s/sense/raw/master/debugger.png
